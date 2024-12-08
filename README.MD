@@ -14,7 +14,7 @@ Este proyecto tiene la finalidad de poner en práctica todos los conceptos adqui
 
 Este proyecto lo comenzará usted desde cero, para alcanzar los objetivos planteados en este enunciado.
 
-Utilice Postman o una interfaz equivalente para evaluar su progreso a medida que avance, pytest y el sistema de desafios para ir realizando las entregas hasta culiminar exitosamente la realización de este trabajo.
+Utilice Postman o una interfaz equivalente para evaluar su progreso a medida que avance y pytest para ir realizando las entregas hasta culiminar exitosamente la realización de este trabajo.
 
 Si tiene dudas, puede utilizar los canales de comunicación del curso para debatir sobre la realización de este proyecto.
 
