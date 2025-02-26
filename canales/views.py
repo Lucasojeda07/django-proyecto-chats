@@ -31,14 +31,9 @@ class MensajeListCreateView(generics.ListCreateAPIView):
     pagination_class = CustomPagination  # Aplicamos paginación
 
     def perform_create(self, serializer):
-        mensaje = serializer.save(user=self.request.user)  # Asigna el usuario autenticado
-        return Response(
-            {
-                "message": "Mensaje creado con éxito",
-                "data": MensajeSerializer(mensaje).data
-            },
-            status=status.HTTP_201_CREATED
-        )
+        serializer.save(user=self.request.user)  # Asigna el usuario autenticado
+
+        
 
 class MensajesPorChatView(generics.ListAPIView):
     serializer_class = MensajeSerializer
